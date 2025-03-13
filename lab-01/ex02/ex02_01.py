@@ -1,3 +1,4 @@
-ten=input("nhập tên của bạn: ")
-tuoi=input("nhập tuổi của bạn: ")
-print("chào mừng, ", ten,"! bạn",tuoi, "tuổi.")
+ten = input("Nhap ten cua ban: ")
+tuoi =input ("Nhap tuoi cua ban: ")
+
+print("Chao mung,",ten, "! Ban", tuoi, "tuoi")

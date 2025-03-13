@@ -1,3 +1,4 @@
-ban_kinh = float(input("nhập bán kính của hình tròn: "))
-dien_tich = 3.14 * (ban_kinh **2)
-print("diện tích của hình tròn là: ",dien_tich)
+ban_kinh=float(input("Nhap ban kinh hinh tron: "))
+dien_tich = 3.14 * (ban_kinh ** 2)
+
+print ("Dien tich hinh tron la: ",dien_tich)

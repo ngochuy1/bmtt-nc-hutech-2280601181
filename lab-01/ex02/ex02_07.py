@@ -1,10 +1,11 @@
-print("nhập các dòng văn bản (nhập 'done' để kết thúc):" )
+print ("Nhap cac dong tu van ban (Nhap 'done' de ket thuc): ")
 lines=[]
 while True:
     line = input()
     if line.lower() == 'done':
         break
     lines.append(line)
-print("\n các dòng đã nhập sau khi chuyển thành chữ in hoa: ")
-for line in lines:
+print("\nCac dong da nhap sau khi chuyen thanh chu in hoa:")
+
+for line in lines :
     print(line.upper())
